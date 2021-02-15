@@ -16,7 +16,7 @@ This simplified calculator adds the entire number selected, rather then adds dig
 
 ![Calculator Example](project-goals.gif)
 
-***Make sure to complete your tasks one at a time and completely test each task before proceding forward.***
+***Make sure to complete your tasks one at a time and completely test each task before proceeding forward.***
 
 ## Instructions
 ### Task 1: Project Set Up
@@ -36,7 +36,7 @@ This simplified calculator adds the entire number selected, rather then adds dig
 * [ ] Use useReducer hook to get access to the application state and the dispatch function.
 
 #### Display our state within the UI.
-> *We now have access to the state withing our App components (You can even test this using console.log or your React dev tools). Let's render the state as is on our screen.*
+> *We now have access to the state within our App components (You can even test this using console.log or your React dev tools). Let's render the state as is on our screen.*
 * [ ] Replace "X" with a reference to `state.operation` within the operation element.
 * [ ] Replace "0" with a reference to `state.memory` within the memory element.
 * [ ] Replace "0" with a reference to `state.total` when passing a value to our TotalDisplay component.
@@ -62,7 +62,7 @@ export const initialState = {
 
 
 #### Connect a better premade action.
-> *Adding indivisual actions for every number would be tedious. Let's add in an action that can work for ALL numerical input*
+> *Adding individual actions for every number would be tedious. Let's add in an action that can work for ALL numerical input*
 * [ ] Note the `APPLY_NUMBER` action case (in ./reducer/index.js) and `applyNumber` action creator (in ./actions/index.js). This action adds, multiplies or subtracts a number passed into the action creator.
 * [ ] Import the `applyNumber` action creator into `App.js.`
 * [ ] Remove or comment out the `addOne` event handler from the 1 button.
